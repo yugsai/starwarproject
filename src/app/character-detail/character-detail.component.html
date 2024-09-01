@@ -1,0 +1,56 @@
+<div class="page-header">
+    <h1 class="header-title">STAR WARS</h1>
+    <h2 class="header-subtitle">The SWAPI Project</h2>
+  </div>
+  
+  
+  <div class="content-container">
+    <div class="character-detail-container">
+     
+      <div class="character-info-box">
+        <h2>Character Information</h2>
+        <ul>
+          <li><strong>Name:</strong> {{ character?.name }}</li>
+          <li><strong>Birth Year:</strong> {{ character?.birth_year }}</li>
+          <li><strong>Gender:</strong> {{ character?.gender }}</li>
+          <li><strong>Height:</strong> {{ character?.height }} cm</li>
+          <li><strong>Weight:</strong> {{ character?.mass }} kg</li>
+          <li><strong>Created At:</strong> {{ character?.created | date: 'short' }}</li>
+          <li><strong>Edited At:</strong> {{ character?.edited | date: 'short' }}</li>
+          <li><strong>Hair Color:</strong> {{ character?.hair_color }}</li>
+          <li><strong>Skin Color:</strong> {{ character?.skin_color }}</li>
+          <li><strong>Species:</strong> {{ speciesName }}</li>
+  
+        </ul>
+      </div>
+    
+      <div class="character-associated-data">
+        <h2>Associated Data</h2>
+        <div class="combined-card">
+         
+          <div class="associated-section">
+            <h3>Films</h3>
+            <ul>
+              <li *ngFor="let film of films">{{ film.title }}</li>
+            </ul>
+          </div>
+  
+          
+          <div class="associated-section">
+            <h3>Vehicles</h3>
+            <ul>
+              <li *ngFor="let vehicle of vehicles">{{ vehicle.name }}</li>
+            </ul>
+          </div>
+  
+          <div class="associated-section">
+            <h3>Starships</h3>
+            <ul> 
+              <li *ngFor="let starship of starships">{{ starship.starship_class }}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

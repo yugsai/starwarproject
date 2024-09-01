@@ -1,0 +1,120 @@
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222; 
+    padding: 20px;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px; 
+  }
+  
+  
+  .header-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffe81f; 
+    margin: 0;
+  }
+  
+  
+  .header-subtitle {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #fff;
+    margin: 0;
+    text-align: right;
+  }
+  
+  
+  .character-detail-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin: 20px;
+    flex-wrap: wrap;
+    border: 1px solid #ddd; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f0f0f0;
+  }
+  
+  
+  .character-info-box {
+    flex: 0.4;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .character-info-box h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .character-info-box ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .character-info-box li {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+  }
+  
+  .character-info-box strong {
+    color: #555;
+  }
+  
+  
+  .character-associated-data {
+    flex: 0.6;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .character-associated-data h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .combined-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .associated-section {
+    margin-bottom: 1.5rem;
+  }
+  
+  .associated-section h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: #555;
+  }
+  
+  .combined-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .combined-card li { 
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  
