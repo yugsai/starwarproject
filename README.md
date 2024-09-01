@@ -2,9 +2,19 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.15.
 
+## Prerequisites
+
+Before running the project, ensure you have the following:
+
+- **Node.js**: Version 18 is required. You can download it from [nodejs.org](https://nodejs.org/).
+
+## Installation
+
+1. Run the command `npm install` to create the `node_modules` directory. This will install all the dependencies needed for the project.
+
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `ng serve` for a development server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
